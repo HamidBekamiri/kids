@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def main():
     st.title('Game Setup')
 
@@ -31,3 +32,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+st.write('Developed by Zhiar and Shayan')
