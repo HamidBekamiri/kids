@@ -2,10 +2,9 @@ import streamlit as st
 
 
 def main():
-    st.title('Game Setup')
+    # st.title('Game Setup')
 
     # Player selection
-    st.header('Number of Players')
     col1, col2, col3, col4 = st.columns(4)
     st.button('Kick off')
     # with col1:
@@ -23,7 +22,10 @@ def main():
 
     # Game mode selection
     st.header('Game Mode')
-    col5, col6 = st.columns(2)
+    col1, col5, col6 = st.columns(3)
+    with col1:
+        if st.button('1 Player'):
+            st.write('1 Player Selected')
     with col5:
         if st.button('Online'):
             st.write('Online Mode Selected')
