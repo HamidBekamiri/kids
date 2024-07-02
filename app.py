@@ -6,7 +6,6 @@ def main():
 
     # Player selection
     col1, col2, col3, col4 = st.columns(4)
-    st.button('Kick off')
     # with col1:
     #     if st.button('1 Player'):
     #         st.write('1 Player Selected')
@@ -24,8 +23,8 @@ def main():
     st.header('Game Mode')
     col1, col5, col6 = st.columns(3)
     with col1:
-        if st.button('1 Player'):
-            st.write('1 Player Selected')
+        if  st.button('Kick off'):
+            st.write('Kick off')
     with col5:
         if st.button('Online'):
             st.write('Online Mode Selected')
