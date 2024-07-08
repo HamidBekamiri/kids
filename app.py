@@ -25,11 +25,11 @@ def main():
     with col1:
         if  st.button('Kick off'):
             # Player selection
-            col1, col2, col3, col4 = st.columns(4)
-            with col1:
+            col2, col3, col4 = st.columns(3)
+            with col2:
                 if st.button('1 Player'):
                     st.write('1 Player Selected')
-            with col2:
+            with col3:
                 if st.button('2 Players'):
                     st.write('2 Players Selected')
     with col5:
