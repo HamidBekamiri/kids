@@ -25,13 +25,19 @@ def main():
     with col1:
         if  st.button('Kick off'):
             # Player selection
-            col2, col3, col4 = st.columns(3)
+            col2, col3, col4, col7 = st.columns(4)
             with col2:
                 if st.button('1 Player'):
                     st.write('1 Player Selected')
             with col3:
                 if st.button('2 Players'):
                     st.write('2 Players Selected')
+            with col4:
+                if st.button('3 Players'):
+                    st.write('3 Players Selected')
+            with col7:
+                if st.button('4 Players'):
+                    st.write('4 Players Selected')
     with col5:
         if st.button('Online'):
             st.write('Online Mode Selected')
