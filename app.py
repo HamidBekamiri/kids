@@ -49,3 +49,5 @@ if __name__ == "__main__":
     main()
 
 st.write('Developed by Zhiar, Shayan, Sozhin, and Aisa')
+
+# Plesae check out the repo
